@@ -1,0 +1,27 @@
+Chef and Table Tennis 
+//parikshit sharma
+#include <iostream>
+using namespace std;
+int main() {
+  int t;
+  cin>>t;
+  while(t--)
+  {
+string s;
+cin>>s;
+int l=s.size(),win=0,lose=0;
+for(int i=0;i<l;i++)
+{
+  if(s[i]=='1')
+  win++;
+  else
+  lose++;
+}
+if(win>lose)
+cout<<"WIN"<<endl;
+else
+cout<<"LOSE"<<endl;
+
+  }
+  
+}
